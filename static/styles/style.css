@@ -1,0 +1,105 @@
+.general{
+    display: inline-block;
+}
+.main{
+    display: block;
+
+}
+.panel{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    height: 900px;
+    padding-top: 60px;
+   
+}
+
+img{
+    width: 300px;
+    float: right;
+    margin-right: 5px;
+}
+
+span {
+    font-weight: bold;
+    
+}
+ul{
+    list-style:circle;
+}
+
+body{
+	background-color: #e8e0e5;
+	display: flex;
+}
+.form{
+    display: inline-block;
+	padding-top: 0px;
+    padding-left: 330px;
+    
+}
+.form-hint{
+	display:block;
+	font-size: 13px;
+	font-weight: 900;
+	margin-bottom:12px;
+}
+
+.field{
+	box-sizing: border-box;
+	width: 640px;
+	border: 1px solid #222222;
+	padding: 15px 20px;
+}
+.field-textarea{
+	min-width: 300px;
+	max-width: 350px;
+	min-height: 200px;
+	max-height: 250px;
+	
+}
+
+.button{
+	width: 640px;
+	border: none;
+	padding: 15px 55px;
+	color:#ffffff;
+	background-color:#e74c3c;
+	font-family: inherit;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.field:focus{
+	background: rgb(122, 127, 122);
+
+}
+.button:hover{
+	background-color: burlywood;
+	
+}
+
+.checkbox{
+	text-align: center;
+}
+.field-select{
+	display: block;
+	box-sizing: border-box;
+	width: 480px;
+	height: 45px;
+	padding-left: 20px;
+	border: 1px solid #000000;
+	font-family: inherit;
+	font-size: 12px;
+	color: #333333;
+	margin:0;
+}
+.svyaz{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
